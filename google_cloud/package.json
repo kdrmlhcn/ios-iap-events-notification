@@ -1,0 +1,32 @@
+{
+    "name": "iap-notifications",
+    "version": "1.0.0",
+    "description": "App Store server-to-server (S2S) notifications handler for in-app purchases",
+    "main": "index.js",
+    "dependencies": {
+      "@google-cloud/functions-framework": "^3.4.4",
+      "axios": "^1.7.9",
+      "base64url": "^3.0.1",
+      "country-iso-3-to-2": "^1.1.1",
+      "date-fns-tz": "^3.2.0",
+      "jsonwebtoken": "^9.0.2"
+    },
+    "scripts": {
+      "start": "functions-framework --target=main --port=8080",
+      "deploy:gcf": "gcloud functions deploy iap-notifications --gen2 --runtime=nodejs20 --region=us-central1 --memory=256MB --timeout=60s --min-instances=0 --max-instances=10 --trigger-http --allow-unauthenticated",
+      "deploy:cf": "wrangler deploy"
+    },
+    "keywords": [
+      "app-store",
+      "server-to-server",
+      "notifications",
+      "telegram-bot",
+      "discord-webhook",
+      "slack-webhook"
+    ],
+    "author": "Kadir Melih Can",
+    "license": "MIT",
+    "engines": {
+      "node": ">=20.0.0"
+    }
+  }
