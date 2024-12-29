@@ -10,6 +10,17 @@
 
 </div>
 
+## 📄 Detailed Setup Guide
+For a comprehensive, step-by-step guide on setting up and configuring this project, check out our [GUIDE.md](GUIDE.md). The guide includes:
+
+- Detailed platform setup instructions (Discord, Telegram, Slack)
+- Step-by-step deployment guides for both Google Cloud Functions and Cloudflare Workers
+- Integration instructions for Adapty, RevenueCat, and direct App Store Connect setup
+- Example notifications and customization options
+- Cost considerations and platform comparisons
+- Security best practices and technical details
+- Troubleshooting tips and advanced features
+
 ## ✨ Features
 
 - 🔄 **Real-time Processing**: Instant App Store server-to-server notifications
@@ -99,20 +110,8 @@ Get beautiful, formatted notifications for:
 ## 🤝 Support
 
 Need help? We're here for you!
-- 📖 Check out our [Wiki](https://github.com/kdrmlhcn/ios-iap-events-notification/wiki)
-- 💬 Join our [Discussions](https://github.com/kdrmlhcn/ios-iap-events-notification/discussions)
+- 💬 Text me on [Telegram](https://t.me/kdrmlhcn)
 - 🐛 Report [Issues](https://github.com/kdrmlhcn/ios-iap-events-notification/issues)
-
-## 📄 Detailed Setup Guide
-For a comprehensive, step-by-step guide on setting up and configuring this project, check out our [GUIDE.md](GUIDE.md). The guide includes:
-
-- Detailed platform setup instructions (Discord, Telegram, Slack)
-- Step-by-step deployment guides for both Google Cloud Functions and Cloudflare Workers
-- Integration instructions for Adapty, RevenueCat, and direct App Store Connect setup
-- Example notifications and customization options
-- Cost considerations and platform comparisons
-- Security best practices and technical details
-- Troubleshooting tips and advanced features
 
 ## 📄 License
 
